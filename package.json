@@ -12,7 +12,6 @@
     "test:tablet": "cypress run --config viewportWidth=767,viewportHeight=480 --spec cypress/e2e/authenticated.cy.js",
     "test:cloud": "cypress run --record --tag 'desktop",
     "test:tablet:cloud": "cypress run --record --tag 'tablet' --config viewportWidth=767,viewportHeight=480 --spec cypress/e2e/authenticated.cy.js"
-
   },
   "keywords": [],
   "author": "",
